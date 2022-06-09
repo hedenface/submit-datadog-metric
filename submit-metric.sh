@@ -26,7 +26,7 @@ function generate_tags ()
     return
   fi
 
-  tags="tags: ["
+  tags=",\"tags\": ["
 
   for arg in "$@"; do
     tags="${tags} \"${arg}\","
